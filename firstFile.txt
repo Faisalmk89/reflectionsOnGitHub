@@ -9,7 +9,10 @@ git status
 git add to move files to the staging area.
 git add fileName
 
+You can also specify a commit message via the command line by running git commit -m "Commit message" instead of just git commit. It's still a good idea to get an editor set up, since this will make it easier to write long commit messages that fully describe the change.
+
 How is the staging area different from the working directory and the repository?
+staging area is where git keeps the intermediate pictures of the files.
 
 What value do you think it offers?
 
